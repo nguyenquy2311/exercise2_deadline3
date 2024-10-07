@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Deadline3</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <style>
+            /* Câu 2 */
+            .container2{
+                background-color:rgb(210, 198, 198);
+                padding:80px 0;
+            }
+            .box1_container2{
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                background-color:rgb(210, 198, 198);
+            }
+            .tieude__box1_container2{
+                font-size: 48px;
+                font-weight: 700;
+                margin-top: 0;
+                margin-bottom: 30px;
+            }
+            .box2_container2{
+                display:flex;
+                align-items:center;
+                width:100%;
+                height:287.2px;
+
+            }
+            .tag1__box2_container2{
+                margin-left:130px;
+                width:280px;
+                height:287.2px;
+                background-color:rgb(210, 198, 198);
+            }
+            .tag2__box2_container2{
+                width:280px;
+                height:287.2px;
+                background-color:rgb(210, 198, 198);
+                margin-left:40px;
+            }
+            .tag3__box2_container2{
+                width:280px;
+                height:287.2px;
+                background-color:rgb(210, 198, 198);
+                margin-left:40px;
+            }
+            .tag4__box2_container2{
+                margin-left:40px;
+            }
+            /* tag 1 */
+            /* tag1_inner_image */
+            .inner_image-tag1__box2_container2 img{
+                width: 100%;
+                height: 150px;
+                object-fit: contain;
+                border-radius: 8px;
+                position:relative;
+            }
+            /* tag1_inner_icon */
+            .inner_icon-tag1__box2_container2{
+                width: 55px;
+                height: 55px;
+                border-radius: 50%;
+                padding: 15px;
+                margin-top: -35px;
+                margin-left: 95px;
+                margin-right: 115px;
+                border: 2px solid #2F57EF;
+                background-color:rgb(210, 198, 198);
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                position:absolute;
+            }
+            .inner_icon-tag1__box2_container2 img{
+                width: 40px;
+                height: 40px;
+                object-fit: contain;
+            }
+            /* tag1 inner_title */
+            .inner_title-tag1__box2_container2{
+                margin-top: 78px;
+                margin-bottom: 10px;
+                margin-left:80px;
+                margin-right:auto;
+                font-size: 18px;
+                text-decoration:none;
+            }
+            .inner_title-tag1__box2_container2 a{
+                text-decoration:none;
+                font-size: 18px;
+                font-family: "Be Vietnam Pro", sans-serif;
+            }
+            /* tag1 inner_button */
+            .inner_button-tag1__box2_container2{
+                margin-left:80px;
+                text-decoration:none;
+                font-family: "Be Vietnam Pro", sans-serif;
+            }
+
+            /* tag 2 */
+            .inner_image-tag2__box2_container2{
+                width:280px;
+                height:287.2px;
+            }
+            /* tag2 inner_image */
+            .inner_image-tag2__box2_container2 img{
+                width: 100%;
+                height: 150px;
+                object-fit: contain;
+                border-radius: 8px;
+                position:relative;
+            }
+            /* tag2 inner_icon */
+            .inner_icon-tag2__box2_container2{
+                width: 55px;
+                height: 55px;
+                border-radius: 50%;
+                padding: 15px;
+                margin-top: -35px;
+                margin-left: 95px;
+                margin-right: 115px;
+                border: 2px solid #2F57EF;
+                background-color:rgb(210, 198, 198);
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                position:absolute;
+            }
+            /* tag2 inner_icon trong image */
+            .inner_icon-tag2__box2_container2 img{
+                width: 40px;
+                height: 40px;
+                object-fit: contain;
+            }
+            .inner_title-tag2__box2_container2{
+                margin-top: 78px;
+                margin-bottom: 10px;
+                margin-left:75px;
+                margin-right:auto;
+                font-size: 18px;
+                text-decoration:none;
+            }
+            .inner_title-tag2__box2_container2 a{
+                text-decoration:none;
+                font-size: 18px;
+                font-family: "Be Vietnam Pro", sans-serif;
+            }
+            .inner_button-tag2__box2_container2{
+                margin-left:90px;
+                text-decoration:none;
+                font-family: "Be Vietnam Pro", sans-serif;
+            }
+            /* tag3 */
+            /* tag3 inner_image */
+            .inner_iamge-tag3__box2_container2 img{
+                width: 100%;
+                height: 150px;
+                object-fit: contain;
+                border-radius: 8px;
+                position:relative;
+            }
+            /* tag3 inner_icon */
+            .inner_icon-tag3__box2_container2{
+                width: 55px;
+                height: 55px;
+                border-radius: 50%;
+                padding: 15px;
+                margin-top: -35px;
+                margin-left: 95px;
+                margin-right: 115px;
+                border: 2px solid #2F57EF;
+                background-color:rgb(210, 198, 198);
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                position:absolute;
+            }
+            /* tag3 inner_icon trong image */
+            .inner_icon-tag3__box2_container2 img{
+                width: 40px;
+                height: 40px;
+                object-fit: contain;
+            }
+            /* title 1 */
+            .inner_title-tag3__box2_container2{
+                margin-top: 78px;
+                margin-bottom: 10px;
+                margin-left:85px;
+                margin-right:auto;
+                font-size: 18px;
+                text-decoration:none;
+            }
+            .inner_title-tag3__box2_container2 a{
+                text-decoration:none;
+                font-size: 18px;
+                font-family: "Be Vietnam Pro", sans-serif;
+            }
+            /* button */
+            .inner_button-tag3__box2_container2{
+                margin-left:90px;
+                text-decoration:none;
+                font-family: "Be Vietnam Pro", sans-serif;
+            }
+
+            /* tag 4 */
+            /* tag4 inner_image */
+            .inner_iamge-tag4__box2_container2 img{
+                width: 100%;
+                height: 150px;
+                object-fit: contain;
+                border-radius: 8px;
+                position:relative;
+            }
+            /* tag4 inner_icon */
+            .inner_icon-tag4__box2_container2{
+                width: 55px;
+                height: 55px;
+                border-radius: 50%;
+                padding: 15px;
+                margin-top: -35px;
+                margin-left: 95px;
+                margin-right: 115px;
+                border: 2px solid #2F57EF;
+                background-color:rgb(210, 198, 198);
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                position:absolute;
+            }
+            /* tag4 inner_icon trong image */
+            .inner_icon-tag4__box2_container2 img{
+                width: 40px;
+                height: 40px;
+                object-fit: contain;
+            }
+            /* title 1 */
+            .inner_title-tag4__box2_container2{
+                margin-top: 78px;
+                margin-bottom: 10px;
+                margin-left:85px;
+                margin-right:auto;
+                font-size: 18px;
+                text-decoration:none;
+            }
+            .inner_title-tag4__box2_container2 a{
+                text-decoration:none;
+                font-size: 18px;
+                font-family: "Be Vietnam Pro", sans-serif;
+            }
+            /* button */
+            .inner_button-tag4__box2_container2{
+                margin-left:90px;
+                text-decoration:none;
+                font-family: "Be Vietnam Pro", sans-serif;
+            }
+            .inner_button-tag4__box2_container2 i{
+                margin-left:10px;
+            }
+            .inner_button-tag3__box2_container2 i{
+                margin-left:10px;
+            }
+            .inner_button-tag2__box2_container2 i{
+                margin-left:10px;
+            }
+            .inner_button-tag1__box2_container2 i{
+                margin-left:10px;
+            }
+        </style>
+
+
+         <!-- Câu 2 -->
+         <h1>Câu 2: Category (Danh sách danh mục)</h1>
+         <p><strong>Yêu cầu:</strong> Sử dụng HTML và CSS để dựng khối bên dưới</p>
+         <div class="container2">
+            <div class="box1_container2">
+                <h1 class="tieude__box1_container2">Danh sách danh mục</h1>
+            </div>
+            <div class="box2_container2">
+
+                <!-- tag 1 -->
+
+                <div class="tag1__box2_container2">
+                    <!-- inner image -->
+                    <a href="" class="inner_image-tag1__box2_container2">
+                        <img src="images_cau2/image-1.jpg">
+                    </a>
+                    <!-- inner icon -->
+                    <div class="inner_icon-tag1__box2_container2">
+                        <img src="images_cau2/web-design.png">
+                    </div>
+                    <!-- title 1-->
+                    <h3 class="inner_title-tag1__box2_container2">
+                        <a href="">Web designer</a>
+                    </h3>
+                    <!-- title 2 -->
+                    <a href="" class="inner_button-tag1__box2_container2">
+                        35 khóa học 
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- tag 2 -->
+
+                <div class="tag2__box2_container2">
+                    <!-- inner_image -->
+                     <a href="" class="inner_image-tag2__box2_container2">
+                        <img src="images_cau2/image-2.jpg">
+                     </a>
+                     <!-- inner_icon -->
+                    <div class="inner_icon-tag2__box2_container2">
+                        <img src="images_cau2/web-design.png">
+                    </div>
+                    <!-- title 1 -->
+                    <h3 class="inner_title-tag2__box2_container2">
+                        <a href="">Graphic Design</a>
+                    </h3>
+                    <!-- title 2 -->
+                     <a href="" class="inner_button-tag2__box2_container2">
+                        35 khóa học
+                        <i class="fa-solid fa-arrow-right"></i>
+                     </a>
+                </div>
+
+                <!-- tag 3 -->
+
+                <div class="tag3__box2_container2">
+                    <!-- inner_image -->
+                    <a href="" class="inner_iamge-tag3__box2_container2">
+                        <img src="images_cau2/image-3.jpg">
+                    </a>
+                    <!-- inner_icon -->
+                    <div class="inner_icon-tag3__box2_container2">
+                        <img src="images_cau2/personal.png">
+                    </div>
+                    <!-- title1 -->
+                    <h3 class="inner_title-tag3__box2_container2">
+                        <a href="">Development</a>
+                    </h3>
+                    <!-- title2 -->
+                    <a href="" class="inner_button-tag3__box2_container2">
+                        35 khóa học
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- tag 4 -->
+
+                <div class="tag4__box2_container2">
+                    <!-- inner_image -->
+                    <a href="" class="inner_iamge-tag4__box2_container2">
+                        <img src="images_cau2/image-4.jpg">
+                    </a>
+                    <!-- inner_icon -->
+                    <div class="inner_icon-tag4__box2_container2">
+                        <img src="images_cau2/server.png">
+                    </div>
+                    <!-- title1 -->
+                    <h3 class="inner_title-tag4__box2_container2">
+                        <a href="">Development</a>
+                    </h3>
+                    <!-- title2 -->
+                    <a href="" class="inner_button-tag4__box2_container2">
+                        35 khóa học
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
